@@ -215,19 +215,6 @@ export function App() {
             </button>
             <br />
             <hr />
-            <h3>Transfer assets from the Ethereum blockchain via Force Bridge</h3>
-            <ul>
-                <div style={{wordWrap:"break-word"}}>Your Layer 2 Deposit Address on Layer 1: <b>{layer2Address}</b><br /><br /></div>
-                <li>Use the <a href="https://force-bridge-test.ckbapp.dev/bridge/Ethereum/Nervos">Force bridge website</a> to transfer tokens from Ethereum to Nervos layer 2.<br /></li>
-                <li>Select the Ethereum asset and amount to transfer across the bridge. In the box marked "Recipient", you specify the Layer 2 Deposit Address on Layer 1 mentioned above 👆<br /></li>
-                <li>When you have finished the reviewing all the details and after putting the correct values, click the <i>Bridge</i> button. You will be asked to sign the transaction using MetaMask. There will be a small fee for the transfer, and this will be calculated automatically.<br /></li>
-            </ul>
-            <br />
-            <div style={{textAlign:"center"}}>
-                Your SUDT balance: <b>{sudtBalance}</b><br />
-            </div>
-            <br />
-            <hr />
 
             <h2>Create NFT</h2>
             <input
